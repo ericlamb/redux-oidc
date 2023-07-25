@@ -30,7 +30,7 @@
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-eslint": "^7.1.1",
-    "babel-loader": "^6.2.10",
+    "babel-loader": "^7.1.5",
     "babel-plugin-rewire": "^1.0.0",
     "babel-plugin-uglify": "^1.0.2",
     "babel-polyfill": "^6.26.0",
