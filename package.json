@@ -6,7 +6,7 @@
   "types": "./index.d.ts",
   "scripts": {
     "test": "mocha-webpack --webpack-config webpack.config-test.js \"tests/**/*.test.js\"",
-    "build": "webpack -p",
+    "build": "webpack",
     "prepublish": "npm run test",
     "pretest": "npm run build"
   },
@@ -54,7 +54,8 @@
     "mocha-webpack": "^0.7.0",
     "node-storage-shim": "^1.0.1",
     "sinon": "^1.17.7",
-    "webpack": "^3.12.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0",
     "webpack-node-externals": "^1.5.4"
   },
   "peerDependencies": {
