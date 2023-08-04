@@ -28,8 +28,8 @@
   "author": "Eric lamb",
   "license": "MIT",
   "devDependencies": {
+    "@babel/eslint-parser": "^7.22.9",
     "babel-core": "^6.21.0",
-    "babel-eslint": "^10.1.0",
     "babel-loader": "^7.1.5",
     "babel-plugin-rewire": "^1.0.0",
     "babel-plugin-uglify": "^1.0.2",
