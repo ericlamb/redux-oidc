@@ -1,14 +1,17 @@
-import jsdom from 'jsdom';
+import { JSDOM } from 'jsdom';
 import StorageShim from 'node-storage-shim';
 
 const DEFAULT_HTML = '<html><body></body></html>';
 
-global.document = jsdom.jsdom(DEFAULT_HTML);
+const dom = new JSDOM(DEFAULT_HTML);
+global.document = dom.document;
 
-global.window = document.defaultView;
+global.window = dom.window;
 
-global.navigator = window.navigator;
+global.navigator = dom.navigator;
 
-window.localStorage = new StorageShim();
+Object.defineProperty(window, 'localStorage', {
+    value: new StorageShim()
+  });
 
 global.localStorage = window.localStorage;
