@@ -95,6 +95,6 @@ describe('helper - loadUser()', () => {
   it('loadUser should return a promise', () => {
     const promise = loadUserHandler(storeMock, userManagerMock);
 
-    expect(promise).toBeA(Promise);
+    expect(promise).toBeInstanceOf(Promise);
   });
 });
