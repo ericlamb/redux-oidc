@@ -5,7 +5,7 @@
   "main": "dist/redux-oidc.js",
   "types": "./index.d.ts",
   "scripts": {
-    "test": "mocha-webpack --webpack-config webpack.config-test.js \"tests/**/*.test.js\"",
+    "test": "mochapack --webpack-config webpack.config-test.js \"tests/**/*.test.js\"",
     "build": "webpack",
     "prepublish": "npm run test",
     "pretest": "npm run build"
@@ -50,8 +50,8 @@
     "file-loader": "^6.2.0",
     "jsdom": "^9.9.1",
     "json-loader": "^0.5.4",
-    "mocha": "^3.2.0",
-    "mocha-webpack": "^0.7.0",
+    "mocha": "^10.2.0",
+    "mochapack": "^2.1.4",
     "node-storage-shim": "^2.0.1",
     "sinon": "^1.17.7",
     "webpack": "^4.46.0",
