@@ -4,12 +4,16 @@ var webpack = require('webpack');
 module.exports = {
   target: 'node', // in order to ignore built-in modules like path, fs, etc.
   externals: nodeExternals(),
+  mode: 'development', 
   module: {
     rules: [
       {
         test: /\.js$/,
-        loader: 'babel-loader?plugins=rewire',
-        exclude: /node_modules/
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        options: { 
+          plugins: ['rewire'] 
+        } 
       }
     ]
   },
