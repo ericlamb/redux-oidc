@@ -8,7 +8,7 @@ describe('helper - createUserManager()', () => {
   let userManagerStub;
 
   beforeEach(() => {
-    userManagerStub = sinon.stub().returns((config) => ({ config }));
+    userManagerStub = sinon.fake((config) => ({ config }));
     createUserManager.__Rewire__('UserManager', userManagerStub);
   });
 
