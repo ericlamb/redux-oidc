@@ -53,7 +53,7 @@
     "mocha": "^10.2.0",
     "mochapack": "^2.1.4",
     "node-storage-shim": "^2.0.1",
-    "sinon": "^15.2.0",
+    "sinon": "^17.0.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-node-externals": "^3.0.0"
