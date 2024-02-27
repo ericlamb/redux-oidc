@@ -44,7 +44,7 @@
     "es6-promise": "^4.0.5",
     "expect": "^29.6.2",
     "file-loader": "^6.2.0",
-    "jsdom": "^15.2.1",
+    "jsdom": "^24.0.0",
     "json-loader": "^0.5.4",
     "mocha": "^10.2.0",
     "mochapack": "^2.1.4",
