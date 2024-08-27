@@ -54,7 +54,7 @@
     "mocha-webpack": "^0.7.0",
     "node-storage-shim": "^1.0.1",
     "sinon": "^1.17.7",
-    "webpack": "^2.2.0",
+    "webpack": "^5.94.0",
     "webpack-node-externals": "^1.5.4"
   },
   "peerDependencies": {
