@@ -51,7 +51,7 @@
     "node-storage-shim": "^2.0.1",
     "sinon": "^19.0.2",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4",
+    "webpack-cli": "^6.0.0",
     "webpack-node-externals": "^3.0.0"
   },
   "peerDependencies": {
